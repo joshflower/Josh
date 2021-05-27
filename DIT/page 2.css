@@ -1,0 +1,96 @@
+p {
+    color:black;
+    background-color:turquoise;}
+
+ .yellow_background{
+    background-color:yellow;    
+}
+
+.yellow_text {
+    color:#000000;
+    background-color:yellow;
+}
+.green_text {
+color: green;
+}
+.turquoise_background{
+background-color:turquoise;
+}
+
+p, h1 {
+    font-family:tahoma
+}
+
+
+.background {
+    background-color:turquoise;
+}
+
+.red_text {
+color: red;
+background-color:yellow;
+
+}
+.purple_text {
+    color: purple;
+    background-color:yellow;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .bottom-left {
+    position: fixed;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .top-left {
+    position: fixed;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .top-right {
+    position: fixed;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bottom-right {
+    position: fixed;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+    box-sizing:border-box;
+  }
+
+#paragraph {
+  float:left;
+}

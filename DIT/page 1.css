@@ -1,0 +1,31 @@
+p {
+    color:black;
+    background-color:turquoise;}
+
+ .yellow_background{
+    background-color:yellow;    
+}
+
+.yellow_text {
+    color:#000000;
+    background-color:yellow;
+}
+.green_text {
+color: green;
+}
+.turquoise_background{
+background-color:turquoise;
+}
+
+p, h1 {
+    font-family:tahoma
+}
+
+
+.background {
+    background-color:turquoise;
+}
+
+.red_text {
+color: red;
+}
